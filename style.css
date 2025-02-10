@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h2{
+    color: #333;
+    margin-top: 0;
+}
+
+p{
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 0;
+}
+
+.counter-buttons{
+    display: inline-grid;
+    justify-content: center;
+}
+
+#counter{
+    font-size: 5em;
+    color: #333;
+    border-style: solid;
+    border-color: #333;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    margin-top: 0;
+}
+
+#increase{
+    font-size: 3em;
+    background-color: green;
+    color: #333;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+#decrease{
+    font-size: 3em;
+    background-color: red;
+    color: #333;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+#reset{
+    font-size: 3em;
+    background-color: blue;
+    color: #333;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-top: 0;
+}
